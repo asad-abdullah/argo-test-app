@@ -2,7 +2,7 @@ apiVersion: secrets.hashicorp.com/v1beta1
 kind: VaultAuth
 metadata:
   name: guestbook-ui-static-auth
-  namespace: app
+  namespace: guestbook-ui
 spec:
   method: kubernetes
   mount: kubernetes
